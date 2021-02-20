@@ -116,7 +116,7 @@ namespace facturero
                 Session["dt"] = dt;
             }
         }
-
+//no funciona 
         protected void btnGuardar_Click(object sender, EventArgs e)
         {
             String insertarpedido = "Insert into pedidos values(" + txtnrofactura.Text + "," + txtnit.Text + ",'" + txtfecha.Text + "','" + txtobservacion.Text + "')";
